@@ -1,0 +1,65 @@
+/* Remove position absolute and use relative or flexbox */
+.footer {
+    position: relative;  /* Avoids overlap and lets the content grow */
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding: 12px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+/* Optional: Adding padding for better text centering */
+/* .text-center {
+    padding-top: 12px;
+}
+
+.text {
+    text-align: center;
+} */
+
+/* Hide the 'Actions' column on smaller screens */
+/* Ensure table is responsive and scrollable horizontally */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Hide the 'Actions' column on smaller screens */
+@media (max-width: 576px) {
+    .table {
+        display: block;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .btn {
+      width: 100%; /* Makes buttons take up full width */
+      margin-bottom: 10px;
+    }
+}
+  
+
+
+/* Base button spacing */
+.btn {
+    white-space: nowrap; /* Prevents wrapping of text/icon */
+  }
+  
+  /* On small screens, adjust button size and layout */
+  @media (max-width: 576px) {
+    td .btn {
+      font-size: 12px;
+      padding: 4px 8px 4px 8px;
+      margin-right: 5px;
+      margin-bottom: 10px;
+      width: 100%;
+      display: inline-block;
+    }
+  
+    td.text-center {
+      text-align: center;
+    }
+  }
+  
