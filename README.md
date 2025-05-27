@@ -42,8 +42,7 @@ A full-stack **Employee Management System** built with **Java Spring Boot** (bac
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/sankarasubramanian7/employee-management-system.git
-    cd employee-management-system/backend
+    git clone https://github.com/sankarasubramanian7/Employee-Management-System.git
     ```
 
 2. Configure your application properties:
