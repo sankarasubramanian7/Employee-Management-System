@@ -42,7 +42,7 @@ A full-stack **Employee Management System** built with **Java Spring Boot** (bac
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/employee-management-system.git
+    git clone https://github.com/sankarasubramanian7/employee-management-system.git
     cd employee-management-system/backend
     ```
 
